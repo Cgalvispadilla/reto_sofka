@@ -1,7 +1,7 @@
 ﻿Reto Sofka
 Pasos de funcionamiento:
 
-1. Primero Creas la base de dato postgreSql con la siguiente sentencia SQL
+#1. Primero Creas la base de dato postgreSql con la siguiente sentencia SQL
    
 CREATE DATABASE reto_db
 WITH
@@ -11,7 +11,7 @@ LC_COLLATE = 'Spanish_Colombia.1252'
 LC_CTYPE = 'Spanish_Colombia.1252'
 TABLESPACE = pg_default
 CONNECTION LIMIT = -1;
-2. Crear la tabla con que trabajara el programa con la siguiente sentencia SQL
+#2. Crear la tabla con que trabajara el programa con la siguiente sentencia SQL
 -- Table: public.podio
 
 -- DROP TABLE public.podio;
