@@ -3,6 +3,7 @@ Pasos de funcionamiento:
 
 #1. Primero Creas la base de dato postgreSql con la siguiente sentencia SQL
    
+
 CREATE DATABASE reto_db
 WITH
 OWNER = postgres
@@ -18,8 +19,7 @@ CONNECTION LIMIT = -1;
 
 -- DROP TABLE public.podio;
 
-CREATE TABLE public.podio
-(
+CREATE TABLE public.podio(
 id_podio integer NOT NULL DEFAULT nextval('podio_id_podio_seq'::regclass),
 primero character varying(240) COLLATE pg_catalog."default",
 segundo character varying(240) COLLATE pg_catalog."default",
@@ -27,7 +27,6 @@ tercero character varying(240) COLLATE pg_catalog."default",
 cantidad integer,
 CONSTRAINT podio_pkey PRIMARY KEY (id_podio)
 )
-
 TABLESPACE pg_default;
 
 ALTER TABLE public.podio
