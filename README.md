@@ -32,6 +32,8 @@ TABLESPACE pg_default;
 ALTER TABLE public.podio
 OWNER to postgres;
 
-3. ya habiendo creado la base de datos y la tabla en consola corra \env\Scripts\activate.bat para que active el entorno virtual de Python
+3. En el archivo funciones_db.py que se encuentra en la carpeta DB, por favor modifique la variable Conexion con sus datos de postgreSQL para que este no les genere error
 
-4. Corra el archivo main.py y use el programa
+4. ya habiendo creado la base de datos y la tabla en consola corra \env\Scripts\activate.bat para que active el entorno virtual de Python
+
+5. Corra el archivo main.py y use el programa
